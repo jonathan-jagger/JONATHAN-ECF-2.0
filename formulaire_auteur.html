@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>formulaire auteur</title>
+        <meta charset=UTF-8>
+        <link type="text/css" rel="stylesheet" href="css/style_ecf.css">
+    </head>
+    <body>
+        <header>  
+            <div>
+                <a href="index.html"><img src="image/biblio.jpg" class="logo" alt="logo" title="logo" width="200px" height="200px" /></a>
+            </div>
+            <div id="titre">
+                <h1>BBiblio</h1>
+            </div>
+            <p class="arbre">index >formulaire auteur</p>
+            <div id="conexion">
+                <p>formulaire auteur public</p>
+            </div>
+           </header>
+           <corps>
+               <form method="GET"  id="auteurInscription" name="auteurInscription">
+                <div id="form1">
+                    <h2>Formulaire auteur</h2>
+                   <p><input type="text" name="nom" placeholder="Nom" id="nom1" autofocus></p>
+                   <p><input type="email" name="email" placeholder="Email" id="email" ></p>
+                   <p><input type="email" name="email-confirmation" placeholder="Confirmation de l'email" id="email2" >
+                   <p><input type="number" name="tel"placeholder="votre telephone" id="phone"  pattern="0[1-9][0-9]{8}"></p>
+                   <p><input type="texte" name="oeuvre" placeholder="titre de l'oeuvre" id="oeuvre"></p>
+                   <p><a href="http://www.???????????"
+                          download="?????">Télécharger le pdf</a></p> <!--appel de la bdd pour recuperer le pdf-->
+                    <p><label for="area">Avez-vous déjà fait des concours, ? ,Si oui, merci de préciser</label></p>
+                    <p><textarea id="area" name="story"
+                     rows="5" cols="33" placeholder="expliquation">
+                    </textarea></p>
+                    <p><input type="submit" value="Inscription"></p>
+                    <p style="color: red;" id="paraError"></p>
+               </form>
+            </div>
+           </corps>
+           <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+           <script src="script/ecf_auteur.js"></script>
+     <body>
+     </html>
