@@ -1,0 +1,363 @@
+/* corp HTML */
+.vl {
+  border-left: 6px solid grey;
+  height: 500px;
+  position: relative;
+  left: 700px;
+  top: -1000px;
+}
+.romfr{
+    margin-left: 50px;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 15px;
+}
+.romf:hover{
+    cursor: pointer;
+}
+.titre1{
+    margin-left: 50px;
+    text-decoration: underline;
+}
+.rometr{
+    position: relative;
+    top:-260px;
+    left: 450px;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 15px;
+}
+.rometr:hover{
+    cursor: pointer;
+}
+.titre2{
+    position: relative;
+    top:-260px;
+    left: 450px;
+    text-decoration: underline;
+}
+.docu{
+    margin-left: 50px;
+    position: relative;
+    top:-160px;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 15px;
+}
+.titre3{
+    margin-left: 50px;
+    position: relative;
+    top:-160px;
+    text-decoration: underline;
+    
+}
+.biog{
+    margin-left: 450px;
+    position: relative;
+    top:-420px;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 15px;
+}
+.titre4{
+    margin-left: 450px;
+    position: relative;
+    top:-420px;
+    text-decoration: underline;
+}
+.cat1{
+    text-align: center;
+    border: solid;
+    width: 50%;
+}
+.reg1{
+    text-align: center;
+    
+}
+#reglement{
+    border: solid;
+}
+#critere{
+    position: relative;
+  left: 800px;
+  top: -1600px;
+}
+#critere2{
+    position: relative;
+  left: 800px;
+  top: -1829px;
+}
+.crit1{
+    text-align: center;
+    border: solid;
+    width: 35%;
+}
+.resume1{
+    margin-left: 50px;
+    border: solid;
+    width: 18%;
+}
+.resume2{
+    position: relative;
+    top:-260px;
+    left: 450px;
+    border: solid;
+    width: 18%;
+}
+.resume3{
+    margin-left: 50px;
+    position: relative;
+    top:-160px;
+    border: solid;
+    width: 18%;
+}
+.resume4{
+    margin-left: 450px;
+    position: relative;
+    top:-420px;
+    border: solid;
+    width: 18%;
+}
+.proust{
+    position: relative;
+    top: -60px;
+}
+.brunet{
+    position: relative;
+    top: -60px;
+}
+body{
+    margin: 0;
+    height: 100%;
+    color: black;
+    background-image: url(../image/fond.jpg);
+    background-repeat: no-repeat;  
+    background-position: top;
+    background-size: contain;
+}
+#infoG{
+    background-image: url(../image/fond.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    position: relative;
+    top: 100px;
+    right: -400px;
+}
+#reseau{
+   margin-left: 50px;
+   margin-top: -50px;
+}
+#form1{
+    
+    margin-left: 400px;
+}
+input{
+    border-radius: 10px;
+    background-color: white;
+}
+input:hover{
+    cursor: pointer;
+    background-color: #b825233c;
+}
+.vainq{
+    position: relative;
+    top: -1650px;
+    right: -300px;
+    
+}
+.infop{
+    margin-left: 400px;
+}
+.infoj{
+    margin-left: 700px;
+    margin-top: -300px;
+}
+#nom{
+    position: relative;
+    top: -500px;
+    right: -900px;
+}
+.profil{
+    position: relative;
+    top: -550px;
+    right: -1100px;
+}
+#mail{
+    border: solid;
+    width: 25%;
+    position: relative;
+    top: 100px;
+    right: -500px
+}
+#vproust{
+    position: relative;
+    top: 500px;
+    right: 300px;
+}
+#historique{
+    position: relative;
+    top: -1155px;
+    right: -800px
+}
+.description{
+    border: solid;
+    width: 25%;
+}
+.trophe{
+    border-radius: 50px;
+    position: relative;
+    top: -250px;
+    right: -300px;
+}
+.trophe2{
+    border-radius: 90px;
+    position: relative;
+    top: -200px;
+    right: 500px;
+}
+.note{
+    border: solid;
+    width: 5%;
+    border-radius: 120px;
+    font-size: 3em;
+    position: relative;
+    top: -600px;
+    right: -800px;
+}
+.img{
+    position: relative;
+    top: -100px;
+}
+.vl1{
+    border-left: 6px solid grey;
+    height: 500px;
+    position: relative;
+    left: 700px;
+    top: -500px;
+  }
+  table{
+    border-collapse: collapse
+  }
+  
+  td{
+    border: 1px solid black;
+    padding: 10px;
+  }
+.recap{
+    margin-left: 320px;
+}
+
+#conex{
+    margin-left: 450px;
+}
+#rs{
+    position: relative;
+    right: -900px;
+    top: -1800px;    
+}
+#rs2{
+    position: relative;
+    right: -900px;
+    top: -1200px;    
+}
+/* header */
+header{
+    box-shadow: 10px 5px 5px black;
+    background-image:url(../image/bois.jpg);
+    background-size: contain;
+    height: 350px;
+    border-radius: 15px;
+    
+}
+.logo{
+    border-radius: 100px;
+    border: 2mm ridge black;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#titre{
+    position: relative;
+    top: -200px;
+    right: -450px;
+    font-size: 3em;
+    color: black;
+}
+#conexion{
+    position: relative;
+    top: -450px;
+    right: -800px;
+}
+.arbre{
+    position: relative;
+    top: -200px;
+    right: -400px;
+}
+/* footer */
+footer{
+    box-shadow: 10px 5px 5px black;
+    background-image:url(../image/bois.jpg);
+    background-size: contain;
+    position: relative;
+    top: -1200px;
+    height: 300px;
+    border-radius: 15px;
+}
+#footer{
+    box-shadow: 10px 5px 5px black;
+    background-image:url(../image/bois.jpg);
+    background-size: contain;
+    position: relative;
+    top: -1600px;
+    height: 300px;
+    border-radius: 15px;
+}
+#foot{
+    box-shadow: 10px 5px 5px black;
+    background-image:url(../image/bois.jpg);
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    top: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+#foot2{
+    box-shadow: 10px 5px 5px black;
+    background-image:url(../image/bois.jpg);
+    background-size: contain;
+    position: relative;
+    top: -1100px;
+    height: 300px;
+    border-radius: 15px;
+}
+#foot3{
+    box-shadow: 10px 5px 5px black;
+    background-image:url(../image/bois.jpg);
+    background-size: contain;
+    position: relative;
+    top: 200px;
+    height: 300px;
+    border-radius: 15px;
+}
+.retour{
+    position: relative;
+    top: -50px;
+    right: -1100px;
+}
+.info1{
+    margin-left: 250px;
+}
+.info2{
+    margin-left: 500px;
+    position: relative;
+    top: -30px;
+}
+.info3{
+    margin-left: 750px;
+    position: relative;
+    top: -65px;
+}
+.droit{
+    margin-left: 500px;
+    position: relative;
+    top: 45px;
+    color: black;
+
+}
