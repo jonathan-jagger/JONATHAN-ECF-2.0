@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Connexion profil</title>
+        <meta charset=UTF-8>
+        <link type="text/css" rel="stylesheet" href="style_ecf.css">
+    </head>
+    <body>
+        <header>  
+            <div>
+                <a href="index.html"><img src="biblio.jpg" class="logo" alt="logo" title="logo" width="200px" height="200px" /></a>
+            </div>
+            <div id="titre">
+                <h1>BBiblio</h1>
+            </div>
+            <p class="arbre">index >connexion jury</p>
+            <div id="conexion">
+                <p>connexion jury</p>
+            </div>
+           </header>
+           <corps>
+            <div id="conex">
+            
+                <form method="GET" name="juryRemplir">
+                    <h3>Veuiller changer votre mot de passe et pseudonyme</h3>
+                    <p><input type="text" name="pseudo" placeholder="Pseudo" id="Pseudo"></p>
+                    <p><input type="password" name="pwd" placeholder="Mot de passe" id="pwd"></p>
+                    <p><input type="password" name="pwd" placeholder="confirmez mot de passe" id="pwd2"></p>
+                    <input type="radio" id="romFr" name="radio" checked>
+                    <label for="romFr">Roman Français</label><br>
+                    <input type="radio" id="romEt" name="radio">
+                    <label for="romEt">Roman Etranger</label><br>
+                    <input type="radio" id="doc" name="radio">
+                    <label for="doc">Documentaire</label><br>
+                    <input type="radio" id="biographie" name="radio">
+                    <label for="biographie">Biographie</label><br><br>
+            
+                    <p><label for="sendFile">Envoyer votre oeuvre:</label></p>
+                    <p><input type="file" id="sendFile" name="sendFile"></p>
+                    <p><input type="submit" value="Inscription"></p>
+                    <p style="color: red;" id="paraError"></p>
+            
+                  </form>
+            </div>
+            
+           </corps>
+           <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+           <script src="connexion_jury.js"></script>
+     <body>
+     </html>
