@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<ceremonie>
+  <!-- Oeuvre-->
+  <categorie>
+    <roman>				
+		<francais>
+		     <francais>j'ai quelques choses a te dire</francais>
+			 <francais>l'été cirxulaire</francais>
+			 <francais>Un roman francais</francais>
+			 <francais>a la recherche du temps perdu</francais>
+	    </francais>
+		<etranger>
+				<etranger>l'etranger</etranger>
+				<etranger>le diable de tout le temps</etranger>
+				<etranger>les patriotes</etranger>
+				<etranger>la cour des loups</etranger>
+	    </etranger>
+	</roman>
+	<documentaire>
+	     <documentaire>le corps humain</documentaire>
+		 <documentaire>insectes</documentaire>
+		 <documentaire>incroyables animaux</documentaire>
+		 <documentaire>coquilles et carapace</documentaire>
+	</documentaire>
+	<biographie>
+	      <biographie>Johnny hallyday</biographie>
+		  <biographie>Lionel messi</biographie>
+		  <biographie>Queen Elizahbet</biographie>
+		  <biographie>Clint eastwood</biographie>
+	</biographie>
+  </categorie>
+
+  <!-- notes -->
+  <critere>
+    <style>
+		<romance>
+			<francais>
+				<oeuvre1>6/10</oeuvre1>
+				<oeuvre2>5/10</oeuvre2>
+				<oeuvre3>3/10</oeuvre3>
+				<oeuvre4>9/10</oeuvre4>
+			</francais>
+			<etranger>
+				<oeuvre1>8/10</oeuvre1>
+				<oeuvre2>3/10</oeuvre2>
+				<oeuvre3>7/10</oeuvre3>
+				<oeuvre4>3/10</oeuvre4>
+			</etranger>
+		</romance>
+		<documentaire>
+				<oeuvre1>8/10</oeuvre1>
+				<oeuvre2>7/10</oeuvre2>
+				<oeuvre3>7/10</oeuvre3>
+				<oeuvre4>6/10</oeuvre4>
+		</documentaire>
+		<biographie>
+			     <oeuvre1>8/10</oeuvre1>
+				<oeuvre2>6/10</oeuvre2>
+				<oeuvre3>7/10</oeuvre3>
+				<oeuvre4>6/10</oeuvre4>
+		</biographie>
+		
+	</style>
+	<illustration>
+		<romance>
+			<francais>
+				<oeuvre1>8/10</oeuvre1>
+				<oeuvre2>9/10</oeuvre2>
+				<oeuvre3>1/10</oeuvre3>
+				<oeuvre4>7/10</oeuvre4>
+			</francais>
+			<etranger>
+				<oeuvre1>8/10</oeuvre1>
+				<oeuvre2>8/10</oeuvre2>
+				<oeuvre3>7/10</oeuvre3>
+				<oeuvre4>6/10</oeuvre4>
+			</etranger>
+		</romance>
+		<documentaire>
+				<oeuvre1>8/10</oeuvre1>
+				<oeuvre2>1/10</oeuvre2>
+				<oeuvre3>7/10</oeuvre3>
+				<oeuvre4>6/10</oeuvre4>
+		</documentaire>
+		<biographie>
+			     <oeuvre1>8/10</oeuvre1>
+				<oeuvre2>2/10</oeuvre2>
+				<oeuvre3>3/10</oeuvre3>
+				<oeuvre4>6/10</oeuvre4>
+		</biographie>
+		
+	</illustration>
+	<mise_en_page>
+		<romance>
+			<francais>
+				<oeuvre1>5/10</oeuvre1>
+				<oeuvre2>6/10</oeuvre2>
+				<oeuvre3>7/10</oeuvre3>
+				<oeuvre4>10/10</oeuvre4>
+			</francais>
+			<etranger>
+				<oeuvre1>7/10</oeuvre1>
+				<oeuvre2>2/10</oeuvre2>
+				<oeuvre3>8/10</oeuvre3>
+				<oeuvre4>6/10</oeuvre4>
+			</etranger>
+		</romance>
+		<documentaire>
+				<oeuvre1>2/10</oeuvre1>
+				<oeuvre2>8/10</oeuvre2>
+				<oeuvre3>7/10</oeuvre3>
+				<oeuvre4>6/10</oeuvre4>
+		</documentaire>
+		<biographie>
+			     <oeuvre1>8/10</oeuvre1>
+				<oeuvre2>2/10</oeuvre2>
+				<oeuvre3>6/10</oeuvre3>
+				<oeuvre4>7/10</oeuvre4>
+		</biographie>
+		
+	</mise_en_page>
+	<emotion>
+		<romance>
+			<francais>
+				<oeuvre1>9/10</oeuvre1>
+				<oeuvre2>9/10</oeuvre2>
+				<oeuvre3>0/10</oeuvre3>
+				<oeuvre4>10/10</oeuvre4>
+			</francais>
+			<etranger>
+				<oeuvre1>8/10</oeuvre1>
+				<oeuvre2>7/10</oeuvre2>
+				<oeuvre3>2/10</oeuvre3>
+				<oeuvre4>6/10</oeuvre4>
+			</etranger>
+		</romance>
+		<documentaire>
+				<oeuvre1>8/10</oeuvre1>
+				<oeuvre2>6/10</oeuvre2>
+				<oeuvre3>7/10</oeuvre3>
+				<oeuvre4>2/10</oeuvre4>
+		</documentaire>
+		<biographie>
+			    <oeuvre1>6/10</oeuvre1>
+				<oeuvre2>2/10</oeuvre2>
+				<oeuvre3>7/10</oeuvre3>
+				<oeuvre4>8/10</oeuvre4>
+		</biographie>
+		
+	</emotion>
+    
+  </critere>
+</ceremonie>
